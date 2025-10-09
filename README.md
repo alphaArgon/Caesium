@@ -1,4 +1,4 @@
-# <img src="images/title.1.light.svg#gh-light-mode-only"><img src="images/title.2.light.svg#gh-light-mode-only"><img src="images/title.1.dark.svg#gh-dark-mode-only"><img src="images/title.2.dark.svg#gh-dark-mode-only">
+# <img src="images/title.1.light.svg#gh-light-mode-only"><img src="images/title.2.light.svg#gh-light-mode-only"><img src="images/title.3.light.svg#gh-light-mode-only"> <img src="images/title.1.dark.svg#gh-dark-mode-only"><img src="images/title.2.dark.svg#gh-dark-mode-only"><img src="images/title.3.dark.svg#gh-dark-mode-only">
 
 Caesium is a cursive typeface for programming, derived from [Cascadia Code](https://github.com/microsoft/cascadia-code). While it inherits some of Cascadia’s structure, Caesium takes a more radical approach in design.
 
@@ -18,17 +18,25 @@ Glyph categories vary:
 
 ![](images/demo.1.svg)
 
-This gives Caesium rhythm, brings characters a script-like feel, and improves legibility.
+This gives Caesium rhythm, lends characters a script-like feel, and improves legibility.
 
 ### Cursiveness
 
-By default, Caesium doesn’t fully adopt cursive forms. For example, ⟨a⟩ and ⟨g⟩ are two-storey (or maybe 1.5-storey?), giving letters unique shapes and improves the differentiation between similar characters.
+By default, Caesium doesn’t fully adopt cursive forms. For example, ⟨a⟩ and ⟨g⟩ are two-storey (or maybe 1.5-storey?), which gives letters unique shapes and improves the differentiation between similar characters.
 
 ![](images/demo.3.svg)
 
-With the OpenType feature `ss01` enabled, or by default in *italic* subfamilies (though they can hardly be called *orthodox* italics), more letters become cursive. The OpenType feature `ss02` can be used to revert cursive `italics`, as well as make ⟨z⟩ more distinguishable from ⟨3⟩.
+With the OpenType feature `ss01` enabled, or by default in *italic* subfamilies (though they can hardly be called *orthodox* italics), more letters become cursive. The OpenType feature `ss02` can be used to revert cursive `italics`, as well as making ⟨z⟩ more distinguishable from ⟨3⟩.
 
 ![](images/demo.7.svg)
+
+### Submono
+
+Another attractive feature is “submono”: letters inside a word adjust their width and position, while the total width of the word remains unchanged. This allows letters that should have been wide, like ⟨W⟩ and ⟨m⟩, to be relaxed and those should have been narrow, like ⟨I⟩ and ⟨t⟩, to be tightened, resulting in more proportional glyphs.
+
+![](images/demo.11.svg)
+
+This feature, nominally embodied by `kern`, is not implemented by altering the advance width of each glyph, but by replacing the shape of glyph face to create a visual shift. Therefore, it won’t break the display where strict monospaced glyphs are required.
 
 ### Weight Mapping
 
@@ -39,7 +47,7 @@ Caesium’s default weight (Regular) is lighter than Cascadia’s; it aligns bet
 
 ### Coding Ligatures
 
-The author is not a big fan of coding ligatures, so Caesium doesn’t include them. However, for consistency with digits, ⟨x⟩ and ⟨b⟩ turn into roman forms when part of integer literals.
+The author is not a fan of coding ligatures, so Caesium doesn’t include them. However, for consistency with digits, ⟨x⟩ and ⟨b⟩ turn into roman forms when part of integer literals.
 
 ![](images/demo.4.svg)
 
