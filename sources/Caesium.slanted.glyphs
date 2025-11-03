@@ -20,16 +20,28 @@ value = (
 11,
 0,
 9,
-4,
+2,
 0,
 0,
 2,
 0,
 4
 );
+},
+{
+name = "Post Table Type";
+value = 3;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
-date = "2025-10-09 11:51:09 +0000";
+date = "2025-10-10 08:26:41 +0000";
 familyName = Caesium;
 featurePrefixes = (
 {
@@ -106,48 +118,112 @@ lookup s2.sr4 {sub @s by @s2.sr4;} s2.sr4;
 lookup no.sr4 {sub @n by @n.sr4;} no.sr4;
 
 lookup submono1 {
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -155,18 +231,32 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
+    sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -174,21 +264,33 @@ lookup submono1 {
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -196,24 +298,36 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -221,28 +335,38 @@ lookup submono1 {
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @s' lookup s1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
+    sub @s' lookup s2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -253,6 +377,7 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -264,16 +389,23 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @w' lookup w2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -281,9 +413,11 @@ lookup submono1 {
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -298,14 +432,18 @@ lookup submono1 {
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @s' lookup s1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
+    sub @s' lookup s1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w2.sl1 @n' lookup no.sr1 @s' lookup s1.sr1;
+    sub @s' lookup s2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -316,6 +454,7 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -332,11 +471,14 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @w' lookup w1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @w' lookup w1.sl1;
+    sub @w' lookup w2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -344,9 +486,11 @@ lookup submono1 {
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @n' lookup no @n' lookup no @w' lookup w2 @s' lookup s2.sr2;
+    sub @w' lookup w2 @w' lookup w2.sr2 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @w' lookup w2.sr2 @n' lookup no.sr4 @n' lookup no.sr4 @n' lookup no.sr4 @s' lookup s2.sr4 @s' lookup s2.sr2;
+    sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -376,6 +520,7 @@ lookup submono1 {
     sub @s' lookup s2 @s' lookup s2.sl2 @w' lookup w2.sl4 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @w' lookup w2.sl4 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @s' lookup s2.sl2 @n' lookup no.sl4 @n' lookup no.sl4 @w' lookup w2.sl4 @w' lookup w2.sl2;
+    sub @s' lookup s2 @w' lookup w1.sl2 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s' lookup s2 @w' lookup w2.sl2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s2 @w' lookup w2.sl2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s2 @w' lookup w2.sl2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -394,6 +539,7 @@ lookup submono1 {
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @s' lookup s2 @w' lookup w2.sl2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2 @w' lookup w2 @s' lookup s2.sr2;
     sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w1.sl2 @w' lookup w1.sl1;
+    sub @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @w' lookup w1 @w' lookup w1.sr1 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
@@ -401,6 +547,7 @@ lookup submono1 {
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @w' lookup w1.sr1 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w1 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s2.sr1 @w' lookup w1.sl1;
+    sub @w' lookup w2 @s' lookup s1.sr2 @n' lookup no.sr1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @w' lookup w2 @s' lookup s2.sr2 @s' lookup s2 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @w' lookup w2 @s' lookup s2.sr2 @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @w' lookup w2 @s' lookup s2.sr2 @n' lookup no @s' lookup s2 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -422,6 +569,7 @@ lookup submono1 {
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2 @w' lookup w2 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @w' lookup w2.sr2 @s' lookup s2.sr4 @s' lookup s2.sr2;
     sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s1.sr2 @s' lookup s1.sr1;
+    sub @w' lookup w2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @n' lookup no.sr2 @s' lookup s2.sr2;
     sub @s' lookup s1 @s' lookup s1.sl1 @n' lookup no.sl2 @n' lookup no.sl2 @w' lookup w2.sl2;
     sub @s' lookup s1 @w' lookup w2.sl1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
     sub @s' lookup s1 @n' lookup no.sl1 @s' lookup s1.sl1 @n' lookup no.sl2 @w' lookup w2.sl2;
@@ -519,43 +667,11 @@ lookup submono2 {
     sub @s' lookup s1 @n' lookup no.sl1 @n' lookup no.sl1 @s2' lookup s2.s1.sl1;
     sub @w2.sl2' lookup w2.sl2.w1 @n' lookup no.sl1 @n' lookup no.sl1 @w' lookup w1.sl1;
     sub @s2.sr2' lookup s2.sr2.s1 @n' lookup no.sr1 @n' lookup no.sr1 @s' lookup s1.sr1;
-} submono2;
-";
+} submono2;";
 name = submono;
 }
 );
 features = (
-{
-code = "lookup submono1;
-lookup subkern;
-lookup submono2;
-";
-tag = kern;
-},
-{
-code = "@case = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-         zero one two three four five six seven eight nine
-         A.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 L.ss02 N.ss02 Q.ss02 T.ss02 Y.ss02 Z.ss02 J.ss03];
-sub @case colon' @case by ratio;
-sub [zero one two three four five six seven eight nine] x' by x.digit;
-sub zero b' [zero one] by b.digit;
-";
-tag = calt;
-},
-{
-code = "sub H by H.prop.wp1;
-sub M by M.prop.wp2;
-sub O by O.prop.wp1;
-sub W by W.prop.wp2;
-sub i by i.prop.wm2;
-sub j by j.prop.wm2;
-sub m by m.prop.wp2;
-sub r by r.prop.wm1;
-sub t by t.prop.wm2;
-sub w by w.prop.wp2;
-";
-tag = pwid;
-},
 {
 code = "#ifdef VARIABLE
 condition 480 < wght;
@@ -616,6 +732,37 @@ value = "";
 }
 );
 tag = ss03;
+},
+{
+code = "sub H by H.prop.wp1;
+sub M by M.prop.wp2;
+sub O by O.prop.wp1;
+sub W by W.prop.wp2;
+sub i by i.prop.wm2;
+sub j by j.prop.wm2;
+sub m by m.prop.wp2;
+sub r by r.prop.wm1;
+sub t by t.prop.wm2;
+sub w by w.prop.wp2;
+sub space by space.pwid;";
+tag = pwid;
+},
+{
+code = "@case = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+         zero one two three four five six seven eight nine
+         A.ss02 E.ss02 F.ss02 G.ss02 H.ss02 I.ss02 J.ss02 L.ss02 N.ss02 Q.ss02 T.ss02 Y.ss02 Z.ss02 J.ss03];
+sub @case colon' @case by ratio;
+sub [zero one two three four five six seven eight nine] x' by x.digit;
+sub zero b' [zero one] by b.digit;
+";
+tag = calt;
+},
+{
+code = "lookup submono1;
+lookup subkern;
+lookup submono2;
+";
+tag = kern;
 }
 );
 fontMaster = (
@@ -626,11 +773,11 @@ axesValues = (
 customParameters = (
 {
 name = underlineThickness;
-value = 63;
+value = 64;
 },
 {
 name = underlinePosition;
-value = -83;
+value = -126;
 },
 {
 name = typoAscender;
@@ -694,7 +841,7 @@ value = 34;
 },
 {
 name = underlinePosition;
-value = -83;
+value = -141;
 },
 {
 name = typoAscender;
@@ -760,7 +907,7 @@ value = 70;
 },
 {
 name = underlinePosition;
-value = -83;
+value = -123;
 },
 {
 name = typoAscender;
@@ -826,7 +973,7 @@ value = 93;
 },
 {
 name = underlinePosition;
-value = -83;
+value = -111;
 },
 {
 name = typoAscender;
@@ -2254,33 +2401,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(106,0,l),
-(214.295,0,ls),
-(450.295,0,o),
-(567.627,125.426,o),
-(599.811,354.426,cs),
-(632.979,590.426,o),
-(537.489,710,o),
-(319.489,710,cs),
-(217.784,710,l),
-(200.076,584,l),
-(306.371,584,ls),
-(433.371,584,o),
-(483.475,508.574,o),
-(462.254,357.574,cs),
-(443.421,223.574,o),
-(372.413,126,o),
-(227.413,126,cs),
-(123.708,126,l)
+(92,0,l),
+(200.295,0,ls),
+(436.295,0,o),
+(553.627,125.426,o),
+(585.811,354.426,cs),
+(618.979,590.426,o),
+(523.489,710,o),
+(305.489,710,cs),
+(203.784,710,l),
+(186.076,584,l),
+(292.371,584,ls),
+(419.371,584,o),
+(469.475,508.574,o),
+(448.254,357.574,cs),
+(429.421,223.574,o),
+(358.413,126,o),
+(213.413,126,cs),
+(109.708,126,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(31,0,l),
-(163,0,l),
-(274.784,710,l),
-(142.784,710,l)
+(17,0,l),
+(149,0,l),
+(260.784,710,l),
+(128.784,710,l)
 );
 }
 );
@@ -2292,33 +2439,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(96,0,l),
-(213.569,0,ls),
-(448.569,0,o),
-(560.573,132.152,o),
-(592.054,356.152,cs),
-(625.081,591.152,o),
-(533.215,710,o),
-(320.215,710,cs),
-(207.784,710,l),
-(194.433,615,l),
-(310.002,615,ls),
-(453.002,615,o),
-(511.746,531.848,o),
-(487.433,358.848,cs),
-(466.071,206.848,o),
-(389.782,95,o),
-(222.782,95,cs),
-(109.351,95,l)
+(85,0,l),
+(202.569,0,ls),
+(437.569,0,o),
+(549.573,132.152,o),
+(581.054,356.152,cs),
+(614.081,591.152,o),
+(522.215,710,o),
+(309.215,710,cs),
+(196.784,710,l),
+(183.433,615,l),
+(299.002,615,ls),
+(442.002,615,o),
+(500.746,531.848,o),
+(476.433,358.848,cs),
+(455.071,206.848,o),
+(378.782,95,o),
+(211.782,95,cs),
+(98.351,95,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(39,0,l),
-(143,0,l),
-(254.784,710,l),
-(150.784,710,l)
+(28,0,l),
+(132,0,l),
+(243.784,710,l),
+(139.784,710,l)
 );
 }
 );
@@ -2330,33 +2477,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(74,0,l),
-(207.229,0,ls),
-(440.229,0,o),
-(544.636,139.715,o),
-(575.274,357.715,cs),
-(608.301,592.715,o),
-(521.555,710,o),
-(316.555,710,cs),
-(182.784,710,l),
-(176.46,665,l),
-(311.688,665,ls),
-(484.688,665,o),
-(556.305,564.285,o),
-(527.494,359.285,cs),
-(501.635,175.285,o),
-(412.096,45,o),
-(212.096,45,cs),
-(80.324,45,l)
+(71,0,l),
+(204.229,0,ls),
+(437.229,0,o),
+(541.636,139.715,o),
+(572.274,357.715,cs),
+(605.301,592.715,o),
+(518.555,710,o),
+(313.555,710,cs),
+(179.784,710,l),
+(173.46,665,l),
+(308.688,665,ls),
+(481.688,665,o),
+(553.305,564.285,o),
+(524.494,359.285,cs),
+(498.635,175.285,o),
+(409.096,45,o),
+(209.096,45,cs),
+(77.324,45,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(46,0,l),
-(93,0,l),
-(204.784,710,l),
-(157.784,710,l)
+(43,0,l),
+(90,0,l),
+(201.784,710,l),
+(154.784,710,l)
 );
 }
 );
@@ -2368,33 +2515,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(91.974,0,l),
-(212.409,0,ls),
-(447.043,0,o),
-(557.656,133.536,o),
-(588.983,356.438,cs),
-(622.01,591.438,o),
-(531.081,710,o),
-(319.545,710,cs),
-(203.209,710,l),
-(191.144,624.15,l),
-(310.311,624.15,ls),
-(458.801,624.15,o),
-(519.901,537.784,o),
-(494.764,358.928,cs),
-(472.579,201.072,o),
-(393.866,85.85,o),
-(220.826,85.85,cs),
-(104.039,85.85,l)
+(82.438,0,l),
+(202.895,0,ls),
+(437.529,0,o),
+(548.119,133.529,o),
+(579.446,356.431,cs),
+(612.473,591.431,o),
+(521.523,710,o),
+(309.987,710,cs),
+(193.673,710,l),
+(181.607,624.15,l),
+(300.796,624.15,ls),
+(449.287,624.15,o),
+(510.366,537.791,o),
+(485.229,358.935,cs),
+(463.044,201.079,o),
+(384.308,85.85,o),
+(211.269,85.85,cs),
+(94.503,85.85,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(40.281,0,l),
-(133.85,0,l),
-(245.634,710,l),
-(152.065,710,l)
+(30.745,0,l),
+(124.314,0,l),
+(236.098,710,l),
+(142.529,710,l)
 );
 }
 );
@@ -64606,7 +64753,7 @@ layerId = "D03DF296-8133-4A96-B1BA-CFDB09DF42C8";
 width = 600;
 }
 );
-unicode = 32;
+unicode = (32,160);
 },
 {
 glyphname = .notdef;
@@ -64706,6 +64853,27 @@ nodes = (
 }
 );
 width = 600;
+}
+);
+},
+{
+glyphname = space.pwid;
+layers = (
+{
+layerId = "1A7FA7F6-774C-4A69-BC02-C84AF7C361B9";
+width = 456;
+},
+{
+layerId = "D03DF296-8133-4A96-B1BA-CFDB09DF42C8";
+width = 456;
+},
+{
+layerId = "ADDB71F6-EC09-4DA0-80DB-A822AEA2EE7D";
+width = 456;
+},
+{
+layerId = "772FC93F-B3B8-447D-A30A-419E2FCA5167";
+width = 456;
 }
 );
 },
@@ -118945,35 +119113,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(479.003,-10,o),
-(549.603,182.268,o),
-(575.372,365.621,cs),
-(608.373,600.438,o),
-(538.402,720,o),
-(369.866,720,cs),
-(147.964,720,o),
-(76.869,517.098,o),
-(51.356,335.562,cs),
-(19.032,105.562,o),
-(90.382,-10,o),
-(258.918,-10,cs)
+(479.025,-10,o),
+(549.602,182.261,o),
+(575.371,365.614,cs),
+(608.372,600.431,o),
+(538.38,720,o),
+(369.844,720,cs),
+(147.942,720,o),
+(76.87,517.105,o),
+(51.357,335.569,cs),
+(19.033,105.569,o),
+(90.404,-10,o),
+(258.94,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(162.135,73.399,o),
-(122.571,157.765,o),
-(147.094,332.255,cs),
-(163.006,445.477,o),
-(209.204,636.601,o),
-(360.975,636.601,cs),
-(467.466,636.601,o),
-(505.932,550.235,o),
-(480.566,369.745,cs),
-(464.398,254.706,o),
-(418.397,73.399,o),
-(267.809,73.399,cs)
+(162.114,73.399,o),
+(122.57,157.758,o),
+(147.093,332.248,cs),
+(163.005,445.47,o),
+(209.226,636.601,o),
+(360.997,636.601,cs),
+(467.487,636.601,o),
+(505.933,550.242,o),
+(480.567,369.752,cs),
+(464.399,254.713,o),
+(418.375,73.399,o),
+(267.787,73.399,cs)
 );
 }
 );
@@ -118996,34 +119164,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(497.698,-10,o),
-(633.388,130.84,o),
-(665.695,360.715,cs),
-(697.51,587.09,o),
-(602.711,720,o),
+(488.421,-10,o),
+(618.388,130.84,o),
+(650.695,360.715,cs),
+(682.51,587.09,o),
+(593.438,720,o),
 (420.961,720,cs),
-(231.086,720,o),
-(94.974,576.16,o),
-(61.964,341.285,cs),
-(30.852,119.91,o),
-(126.073,-10,o),
+(240.363,720,o),
+(109.974,576.16,o),
+(76.964,341.285,cs),
+(45.852,119.91,o),
+(135.346,-10,o),
 (307.823,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(158.315,35,o),
-(82.497,145.84,o),
-(109.744,339.715,cs),
-(138.713,545.84,o),
-(254.844,675,o),
+(167.69,35,o),
+(97.497,145.84,o),
+(124.744,339.715,cs),
+(153.713,545.84,o),
+(264.219,675,o),
 (416.094,675,cs),
-(570.469,675,o),
-(645.866,561.16,o),
-(617.916,362.285,cs),
-(589.649,161.16,o),
-(473.94,35,o),
+(561.094,675,o),
+(630.866,561.16,o),
+(602.916,362.285,cs),
+(574.649,161.16,o),
+(464.565,35,o),
 (312.69,35,cs)
 );
 }
@@ -119047,34 +119215,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(505.914,-10,o),
-(644.678,132.902,o),
-(677.319,365.152,cs),
-(708.8,589.152,o),
-(608.245,720,o),
+(496.633,-10,o),
+(629.678,132.902,o),
+(662.319,365.152,cs),
+(693.8,589.152,o),
+(598.969,720,o),
 (419.62,720,cs),
-(222.245,720,o),
-(82.491,572.723,o),
-(49.481,337.848,cs),
-(18.369,116.473,o),
-(119.914,-10,o),
+(231.526,720,o),
+(97.491,572.723,o),
+(64.481,337.848,cs),
+(33.369,116.473,o),
+(129.191,-10,o),
 (309.164,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(193.33,82,o),
-(133.458,174.027,o),
-(156.243,336.152,cs),
-(181.417,515.277,o),
-(278.579,628,o),
+(202.705,82,o),
+(148.458,174.027,o),
+(171.243,336.152,cs),
+(196.417,515.277,o),
+(287.954,628,o),
 (409.829,628,cs),
-(535.454,628,o),
-(594.905,532.973,o),
-(571.276,364.848,cs),
-(546.945,191.723,o),
-(450.205,82,o),
+(526.079,628,o),
+(579.905,532.973,o),
+(556.276,364.848,cs),
+(531.945,191.723,o),
+(440.83,82,o),
 (318.955,82,cs)
 );
 }
@@ -119098,34 +119266,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(509.265,-10,o),
-(654.226,136.801,o),
-(686.498,366.426,cs),
-(718.348,593.051,o),
-(610.144,720,o),
+(500.119,-10,o),
+(639.226,136.801,o),
+(671.498,366.426,cs),
+(703.348,593.051,o),
+(601.008,720,o),
 (418.894,720,cs),
-(219.519,720,o),
-(74.365,571.824,o),
-(41.865,340.574,cs),
-(10.243,115.574,o),
-(118.64,-10,o),
+(228.665,720,o),
+(89.365,571.824,o),
+(56.865,340.574,cs),
+(25.243,115.574,o),
+(127.776,-10,o),
 (309.89,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(211.758,116,o),
-(159.395,194.926,o),
-(180.125,342.426,cs),
-(201.382,493.676,o),
-(288.901,594,o),
+(221.133,116,o),
+(174.395,194.926,o),
+(195.125,342.426,cs),
+(216.382,493.676,o),
+(298.276,594,o),
 (405.776,594,cs),
-(516.401,594,o),
-(567.967,512.074,o),
-(547.097,363.574,cs),
-(525.981,213.324,o),
-(439.258,116,o),
+(507.026,594,o),
+(552.967,512.074,o),
+(532.097,363.574,cs),
+(510.981,213.324,o),
+(429.883,116,o),
 (323.008,116,cs)
 );
 }
@@ -119149,34 +119317,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(504.432,-10,o),
-(642.611,132.518,o),
-(675.191,364.333,cs),
-(706.733,588.768,o),
-(607.211,720,o),
+(492.059,-10,o),
+(622.611,132.517,o),
+(655.191,364.333,cs),
+(686.733,588.767,o),
+(594.843,720,o),
 (419.844,720,cs),
-(223.842,720,o),
-(84.776,573.359,o),
-(51.767,338.484,cs),
-(20.655,117.109,o),
-(121.063,-10,o),
+(236.215,720,o),
+(104.776,573.359,o),
+(71.767,338.484,cs),
+(40.655,117.109,o),
+(133.431,-10,o),
 (308.94,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(186.901,73.399,o),
-(124.131,168.862,o),
-(147.733,336.797,cs),
-(173.602,520.863,o),
-(274.257,636.601,o),
+(199.4,73.399,o),
+(144.131,168.861,o),
+(167.732,336.797,cs),
+(193.601,520.863,o),
+(286.757,636.601,o),
 (410.997,636.601,cs),
-(541.883,636.601,o),
-(604.231,538.138,o),
-(579.812,364.386,cs),
-(554.761,186.137,o),
-(454.527,73.399,o),
+(529.384,636.601,o),
+(584.232,538.139,o),
+(559.812,364.386,cs),
+(534.761,186.137,o),
+(442.027,73.399,o),
 (317.787,73.399,cs)
 );
 }
@@ -122494,7 +122662,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = uniqueID;
-value = "1.002;ARGN;Caesium";
+value = "1.003;ARGN;Caesium";
 },
 {
 key = vendorID;
@@ -122502,7 +122670,7 @@ value = ARGN;
 },
 {
 key = versionString;
-value = "Version 1.002";
+value = "Version 1.003";
 }
 );
 settings = {
@@ -122519,5 +122687,5 @@ name = Vertical;
 );
 unitsPerEm = 1024;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
