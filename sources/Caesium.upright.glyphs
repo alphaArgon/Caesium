@@ -48,7 +48,7 @@ name = "Write DisplayStrings";
 value = 0;
 }
 );
-date = "2026-05-11 09:18:48 +0000";
+date = "2026-05-21 08:28:34 +0000";
 familyName = Caesium;
 featurePrefixes = (
 {
@@ -82837,7 +82837,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = uniqueID;
-value = "2.001;ARGN;Caesium";
+value = "2.002;ARGN;Caesium";
 },
 {
 key = vendorID;
@@ -82845,7 +82845,7 @@ value = ARGN;
 },
 {
 key = versionString;
-value = "Version 2.001";
+value = "Version 2.002";
 }
 );
 stems = (
@@ -82859,5 +82859,5 @@ name = Vertical;
 );
 unitsPerEm = 1024;
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }

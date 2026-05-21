@@ -86,9 +86,7 @@ let lookupDefs = "lookup _ {sub .notdef by .notdef;};\n";
 let lookupNames = new Set();
 
 let lookupSubmono1 = "lookup submono1 {";
-let submonoTSubs = "";
-let submonoSubs = "";
-let prevRuleLength = 0;
+let submonoSubs = [];
 
 for (let rule of rules) {
     let tIndices = [];
@@ -98,14 +96,9 @@ for (let rule of rules) {
                 tIndices.push(i);
             }
         }
-    }
-
-    if (prevRuleLength !== rule.length) {
-        prevRuleLength = rule.length;
-        lookupSubmono1 += submonoTSubs;
-        lookupSubmono1 += submonoSubs;
-        submonoTSubs = "";
-        submonoSubs = "";
+        if (rule[rule.length - 1].value < 0) {
+            tIndices.push(rule.length - 1);
+        }
     }
 
     for (let tComb of eachCombination(tIndices)) {
@@ -161,20 +154,26 @@ for (let rule of rules) {
                 break;
             }
         }
+
+        let n = rule.length;
+
+        if (ts.has(rule.length - 1)) {
+            sub += ` @n_low`;
+            n += 1;
+        }
     
         sub += ";"
 
-        if (ts.size !== 0) {
-            submonoTSubs += sub;
-        } else {
-            submonoSubs += sub;
-        }
+        submonoSubs.push([sub, n]);
     }
 }
 
+if (globalThis.WeakRef === undefined) {
+    throw "Array sorting might be unstable";
+}
 
-lookupSubmono1 += submonoTSubs;
-lookupSubmono1 += submonoSubs;
+submonoSubs.sort((a, b) => b[1] - a[1]);
+lookupSubmono1 += submonoSubs.map(x => x[0]).join("");
 lookupSubmono1 += "\n} submono1;";
 
 
