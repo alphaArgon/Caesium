@@ -48,12 +48,13 @@ name = "Write DisplayStrings";
 value = 0;
 }
 );
-date = "2026-05-21 08:28:41 +0000";
+date = "2026-05-27 03:13:08 +0000";
 familyName = Caesium;
 featurePrefixes = (
 {
 code = "lookup submono1 {};
-lookup submono2 {};";
+lookup submono2 {};
+";
 name = submono;
 },
 {
@@ -231,7 +232,10 @@ sub underscore' underscore by underscore.underscore;";
 tag = dlig;
 },
 {
-code = "sub D by D.prop.wp1;
+code = "sub fi.noccmp by f i;
+sub fl.noccmp by f l;
+
+sub D by D.prop.wp1;
 sub M by M.prop.wp2;
 sub O by O.prop.wp2;
 sub Q by Q.prop.wp2;
@@ -248,7 +252,17 @@ sub I.ss02 by I.ss02.prop.wm2;
 sub J.ss02 by J.ss02.prop.wm2;
 sub N.ss02 by N.ss02.prop.wp1;
 sub Q.ss02 by Q.ss02.prop.wp2;
-";
+
+@intoT = [a a.ss02 c e f g g.ss02 i.prop.wm2 j.prop.wm2 M.prop.wp2 n o p p.ss02 q r.prop.wm1 s u v W.prop.wp2 x y y.ss02 z z.ss02];
+@puncLow = [period comma underscore];
+@puncMidLow = [colon semicolon ratio];
+pos T @intoT -48;
+enum pos [@intoT A] T -48;
+enum pos [F P T] A -48;
+pos T [@puncLow @puncMidLow] -96;
+enum pos [F P] @puncLow -96;
+enum pos [F P] @puncMidLow -48;
+enum pos [V seven] @puncLow -48;";
 tag = pwid;
 },
 {
@@ -264,7 +278,8 @@ tag = calt;
 },
 {
 code = "lookup submono1;
-lookup submono2;";
+lookup submono2;
+";
 tag = kern;
 }
 );
