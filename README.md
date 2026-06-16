@@ -89,9 +89,9 @@ Additionally, analogous to the concept of *duospaced* fonts, Caesium has the fea
 
 ## Character Coverage
 
-- Adobe Latin 2.
+- Adobe Latin 3.
 - Adobe Greek 1.
-- Cyrillic for Russian and Ukrainian.
+- Cyrillic with regional variants.
 - [Powerline symbols](https://github.com/b-ryan/powerline-shell).
 - [Fish prompt symbols](https://github.com/fish-shell/fish-shell/blob/master/doc_src/cmds/fish_git_prompt.rst).
 - Box drawings.
@@ -99,9 +99,9 @@ Additionally, analogous to the concept of *duospaced* fonts, Caesium has the fea
 - Control symbols.
 - Arrows and keyboard symbols.
 
-<img src="images/demo.12@2x.png" width="620">
+<img src="images/demo.12@2x.png" width="1100">
 
-As you can see, lowercase Greek, Cyrillic, arrows and other symbols are completely different from those in Cascadia.
+As you can see, lowercase Greek, Cyrillic, arrows and other symbols are fully redesigned.
 
 ## Demo in Use
 
